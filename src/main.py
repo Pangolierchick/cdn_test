@@ -3,8 +3,6 @@ from fastapi import FastAPI, status, Response
 import databases
 import db
 import geoapi
-from pydantic import BaseModel, ValidationError
-from dot import Dot
 from multiprocessing import Process, Pipe
 from coord import *
 
